@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#fafafa" />
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous">
+  </script>
+
+ 
+
+    <title></title>
+
+    <meta name="description" content="" />
+    <link rel="apple-touch-icon" href="./assets/img/icon.png" />
+    <link rel="icon" href="./assets/img/favicon.png" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link href="./assets/css/main.css.map" />
+</head>
+
+<body>
+<div class="container">
+  <div class="titulo_game"><img src="img/spabila_titulo.png" alt=""></div>
+  <br>
+<div class="maquina">
+ <div id="color_maquina"></div>
+ </div>
+
+ <div class="usuario">
+ <div class="elcolor">
+ <div id="color_usuario_correcto" class="color_usuario"></div>
+ </div>
+ <div class="elcolor">
+  <div id="color_usuario_incorrecto_a" class="color_usuario"></div>
+  </div>
+  <div class="elcolor">
+   <div id="color_usuario_incorrecto_b" class="color_usuario"></div>
+   </div>
+ </div>
+<p id="warning"></p>
+    <div class="content">
+        <div class="minspan">Puntos:<span id="puntos"></span> </div>
+        <div class="minspan">Fallos:<span id="fallos"></span> </div>
+        <div class="minspan">Tiempo:<span id="contador"></span></div>
+    </div>
+  </div>
+</div>
+
+<div id="popup1" class="overlay">
+  <div class="popup">
+      <h2>Bien jugado 🎉</h2>
+      <div class="content-2">
+          <p>Has hecho <span id="pntos"></span> puntos </p>
+       </div>
+      <button id="play-again">
+       <a href="game_1.html">   Jugar de nuevo 😄</a>
+      </button>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+ 
+   
+  
+
+ 
+    <script src="./app/main.js"></script>
+</body>
+
+</html>
